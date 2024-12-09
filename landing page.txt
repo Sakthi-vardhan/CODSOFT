@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      margin:1;
+      font-family: Algerian,Comic Sans;
+      line-height: 1.6;
+      color:#BAB86C;
+      border:2px #808080;
+    }
+
+    header {
+      background: #F5F5DC;
+      color:#000000;
+      padding: 60px;	
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    button {
+      background: #654321;
+      color:#C0C0C0;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+ footer {
+      background: #f4f4f4;
+      color: #FFD700;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i>Welcome to Our Landing Page</i></h1>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      We provide the best services to our customers!!. Join us to learn more about what we offer!
+    </p>
+    <button onclick="alert('Thank you for clicking!')">Learn More</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
